@@ -7,7 +7,7 @@ First make sure that you have ``init`` and ``updated`` the submodule form marius
 
 Include this category in your *-Prefix.pch file:
 
-```
+```objectiv-c
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
@@ -16,12 +16,12 @@ Include this category in your *-Prefix.pch file:
 ```
 
 Then import the category in any class you want to use it:
-```
+```objectiv-c
 #import "UIBarButtonItem+DefaultBackButton.h"
 ```
 
 At least create the custom leftBarButtonItem and hide the backBarButtonItem:
-```
+```objectiv-c
 self.navigationItem.hidesBackButton = NO;
 self.navigationItem.leftBarButtonItem = [self.navigationItem.leftBarButtonItem backButtonWith:@"Mainmenu"
 tintColor:[UIColor colorWithRed:1.0/255.0 green:136.0/255.0 blue:185.0/255.0 alpha:1.0]
@@ -29,6 +29,7 @@ andAction:@selector(backAction)];
 ```
 
 The result:
+
 ![alt text](http://www.fudgecode.de/wp-content/uploads/2013/10/backBarItem-624x216.png "Back Button")
 
 Fully tested on iOS 6 & 7.
