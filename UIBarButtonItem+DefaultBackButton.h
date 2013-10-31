@@ -10,6 +10,6 @@
 
 @interface UIBarButtonItem (DefaultBackButton)
 
-- (UIBarButtonItem *)backButtonWith:(NSString *)title tintColor:(UIColor *)color andAction:(SEL)action;
+- (UIBarButtonItem *)backButtonWith:(NSString *)title tintColor:(UIColor *)color target:(id)target andAction:(SEL)action;
 
 @end
