@@ -3,7 +3,7 @@ UIBarButtonItem-DefaultBackButton
 
 Category to create iOS 7 UIBarButtonItem like the back button.
 
-First make sure that you have ``init`` and ``updated`` the submodule form marius-.
+First make sure that you have ``init`` and ``updated`` the submodule from [marius-].
 
 Include this category in your *-Prefix.pch file:
 
@@ -38,3 +38,4 @@ A german tutorial can be found under: [FudgeCode.de]
 
 
 [FudgeCode.de]: www.fudgecode.de/2013/10/ios-7-back-button-aus-uinavigationbar-nachbauen/
+[marius-]: https://github.com/marius-
