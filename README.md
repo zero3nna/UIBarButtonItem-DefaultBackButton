@@ -20,7 +20,7 @@ Then import the category in any class you want to use it:
 #import "UIBarButtonItem+DefaultBackButton.h"
 ```
 
-At least create the custom leftBarButtonItem and hide the backBarButtonItem:
+At last create the custom leftBarButtonItem and hide the backBarButtonItem:
 ```objc
 self.navigationItem.hidesBackButton = NO;
 self.navigationItem.leftBarButtonItem = [self.navigationItem.leftBarButtonItem backButtonWith:@"Mainmenu"
