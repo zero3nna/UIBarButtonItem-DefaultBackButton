@@ -37,5 +37,5 @@ Fully tested on iOS 6 & 7.
 A german tutorial can be found under: [FudgeCode.de]
 
 
-[FudgeCode.de]: www.fudgecode.de/2013/10/ios-7-back-button-aus-uinavigationbar-nachbauen/
+[FudgeCode.de]: http://www.fudgecode.de/2013/10/ios-7-back-button-aus-uinavigationbar-nachbauen/
 [marius-]: https://github.com/marius-
